@@ -3,6 +3,6 @@ import './BtnDeplacement.scss';
 export default function BtnDeplacement(props)
 {
     return(
-        <button>Bouton déplacement</button>
+        <button>Bouton de déplacement</button>
     )
 }
