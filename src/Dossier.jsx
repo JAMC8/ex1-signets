@@ -5,16 +5,18 @@ import './Dossier.scss';
 
 export default function Dossier(props)
 {
-    
+    const id = props.id;
+    const titre = props.titre;
+    const dateModif = props.dateModif;
 
     return(
         <li className="Dossier">
             <BtnDeplacement/>
             <button>
-                <img src=""/>
+                <img src={"images-dossiers/" + props.id + '.webp'} alt="" />
                 <div className="info">
-                    <p className="nomDossier">Nom du dossier</p>
-                    <p className="dateModification">Modifié:</p>
+                    <p className="nomDossier">{titre}</p>
+                    <p className="dateModification">Modifié: {dateModif}</p>
                 </div>
             </button>
             <BtnOptions/>
