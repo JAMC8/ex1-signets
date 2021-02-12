@@ -2,42 +2,42 @@
     {
         "id" : "dsr0001",
         "titre" : "Cadriciels",
-        "couleur" : "#000",
+        "couleur" : "#157de1",
         "dateModif" : "12 février 2021"
     },
 
     {
         "id" : "dsr0002",
         "titre" : "React",
-        "couleur" : "#000",
+        "couleur" : "#9b1ab6",
         "dateModif" : "12 février 2021"
     },
 
     {
         "id" : "dsr0003",
         "titre" : "Plateformes nuagiques",
-        "couleur" : "#000",
+        "couleur" : "#13b032",
         "dateModif" : "12 février 2021"
     },
 
     {
         "id" : "dsr0004",
         "titre" : "IDEs (nuagiques)",
-        "couleur" : "#000",
+        "couleur" : "#c42f2f",
         "dateModif" : "12 février 2021"
     },
 
     {
         "id" : "dsr0005",
         "titre" : "Outils JavaScript",
-        "couleur" : "#000",
+        "couleur" : "#f1ab1a",
         "dateModif" : "12 février 2021"
     },
 
     {
         "id" : "dsr0006",
         "titre" : "JavaScript",
-        "couleur" : "#000",
+        "couleur" : "#f11a9f",
         "dateModif" : "12 février 2021"
     },
 
@@ -51,7 +51,7 @@
     {
         "id" : "dsr0008",
         "titre" : "GrapQl",
-        "couleur" : "#000",
+        "couleur" : "#062f97",
         "dateModif" : "12 février 2021"
     }
 ]

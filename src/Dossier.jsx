@@ -8,12 +8,15 @@ export default function Dossier(props)
     const id = props.id;
     const titre = props.titre;
     const dateModif = props.dateModif;
+    const couleur = props.couleur;
+
+    console.log(couleur);
 
     return(
         <li className="Dossier">
             <BtnDeplacement/>
-            <button>
-                <img src={"images-dossiers/" + props.id + '.webp'} alt="" />
+            <button className="btnDossier" style={{backgroundColor: couleur}}>
+                <img src={"images-dossiers/" + id + ".webp"} alt="" />
                 <div className="info">
                     <p className="nomDossier">{titre}</p>
                     <p className="dateModification">Modifié: {dateModif}</p>
