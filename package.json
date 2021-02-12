@@ -9,6 +9,7 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.2",
+    "sass": "^1.32.7",
     "web-vitals": "^1.1.0"
   },
   "scripts": {
@@ -37,5 +38,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage-inactif": "url"
+  "homepage-inactif": "https://jamc8.github.io/ex1-signets/"
 }
