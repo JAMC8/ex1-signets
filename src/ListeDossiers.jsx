@@ -7,7 +7,7 @@ export default function ListeDossiers(props)
     return(
         
         <div className="ListeDossiers">
-            <ul>
+            <ul className="liste">
                 {tabDossiers.map( dossier =>
                     <Dossier id={dossier.id} titre={dossier.titre} couleur={dossier.couleur} dateModif={dossier.dateModif} key={dossier.id} /> 
                 )}
