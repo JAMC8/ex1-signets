@@ -1,8 +1,9 @@
 import './BtnDeplacement.scss';
+import SortIcon from '@material-ui/icons/Sort';
 
 export default function BtnDeplacement(props)
 {
     return(
-        <button className="BtnDeplacement">Bouton de déplacement</button>
+        <button className="BtnDeplacement"><SortIcon/></button>
     )
 }
