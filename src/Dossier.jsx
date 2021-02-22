@@ -5,6 +5,7 @@ import './Dossier.scss';
 
 export default function Dossier(props)
 {
+    // const [id, titre, dateModif, couleur] = props;
     const id = props.id;
     const titre = props.titre;
     const dateModif = props.dateModif;
